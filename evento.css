@@ -1,0 +1,293 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    background-color: #f3ecdd;
+  }
+    
+   /* Estilos para el encabezado */
+  /* Estilos para el encabezado */
+  .headers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+        background-color: #5567ff;
+        
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 0 20px; /* Agrega un espacio interno para los elementos */
+  }
+  
+  .logo {
+    width: 110px;
+    height: auto;
+  }
+  
+  .logo-container {
+    margin-right: 20px; /* Espacio entre el logo y el contenido siguiente */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-right: 40px; /* Ajusta el valor segÃºn tu preferencia */
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bebebe;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px; /* Espacio entre los botones */
+  }
+  
+  .button:hover {
+    background-color: #5f5553;
+  }
+  
+  /* Estilos para el tÃ­tulo de la pÃ¡gina */
+  .page-title {
+    color: #5d5d5d;
+    margin-top: 150px;
+    align-items: center;
+  }
+  
+  /* Estilos para el contenedor del tÃ­tulo */
+  .title-container {
+    margin-top: 150px; /* Ajusta el valor segÃºn tu preferencia */
+  }
+    h1 {
+      text-align: center;
+    }
+  
+  /* tabla externa css kev */
+  .outer-table {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+    display: table; /* Para que el margen automático funcione */
+  }
+  
+  .outer-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: none; /* Eliminar los bordes en las celdas de la tabla externa */
+  }
+  
+  .centered-content {
+    text-align: center; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  /* Estilos de la tabla interna */
+  
+  table {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #dbc690;
+    border: none; /* Eliminar el borde en la tabla interna */
+    border-radius: 30px; /* Cambiar el valor para esquinas más redondeadas */
+    overflow: hidden;
+  }
+  
+  table, th, td {
+    border: none; /* Eliminar los bordes en la tabla interna */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #cfae85; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e2bd8f; 
+  }
+  
+  tr:first-child {
+    background-color: #dfc180; /* Cambia este color para el primer tr */
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+    color: rgb(3, 3, 3);
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+    color: #080808;
+  }
+  
+  th:first-child, td:first-child {
+    background-color: #e7d198;
+  }
+  
+  th:last-child, td:last-child {
+    background-color: #e8e9bf;
+  }
+  
+  
+    .site-footer {
+      background-color: #3F3634;
+      margin-top: auto; /* Empuja el footer hacia abajo */
+      padding: 20px; /* Espacio interno en el footer */
+    }
+
+  /* Estilo para las imÃ¡genes */
+  .editar-blog-form img {
+    max-width: 500px; /* TamaÃ±o mÃ¡ximo para las imÃ¡genes */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px auto; /* Centra las imÃ¡genes */
+  }
+  
+  /* Estilo para los mensajes de error */
+  .editar-blog-form p.error-message {
+    color: red;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #7b5b38;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el buscador */
+  #busqueda {
+    padding: 8px;
+    border: 2px solid #ddd; /* Borde color pastel */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 16px;
+    background-color: #f8f7f7;
+    color: #000;
+    width: 50%; /* Ocupa la mitad del espacio */
+    margin: 0 auto; /* Centrado horizontal */
+    display: block; /* Asegura que ocupe toda la lÃ­nea horizontal */
+    margin-bottom: 20px;
+  }
+  
+  #busqueda::placeholder {
+    color: #ccc;
+  }
+  
+  /* Estilo cuando el campo de bÃºsqueda estÃ¡ enfocado */
+  #busqueda:focus {
+    border-color: #7b8f99;
+    outline: none;
+  }
+  
+  /* Estilos generales */
+  
+  /* Estilos para la paginación */
+  .pagination {
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+      .pagination {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+      }
+  
+      .pagination a, .pagination .arrow {
+          padding: 5px 10px;
+          margin: 0 5px;
+          text-decoration: none;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          color: #333;
+      }
+  
+      .pagination a.active {
+          background-color: #007bff;
+          color: #fff;
+      }
+
+      .evento p {
+        font-size: 1.6rem;
+        color: #7c6f6f;
+        margin: 3rem 0 0 0;
+    }
+    legend {
+        font-size: 2rem;
+        color: #4f4f4f;
+    }
+    label {
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+    }
+    input:not([type="submit"]),
+    select {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        background-color: #dbd8d8e1;
+        margin-bottom: 2rem;
+        border: none;
+        border-radius: 1rem;
+    }
+    input[type="radio"]{
+        width: auto;
+        margin: 0;
+    }
+    select {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    
+    .forma-contacto {
+        max-width:30rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .extra{
+        display: none;
+    }
+    
+    p {
+       display: inline;
+       }
+    
+       input[type="checkbox"]{
+        height: 2em;
+        display: block;
+        appearance: none;
+       }
+    
+       label{
+        position: relative;
+        padding: 1em;
+        background-color: #5567ff;
+        color:#000000;
+        cursor: pointer;
+       }
+    
